@@ -6,7 +6,47 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Página principal</h1>
-    <h2>Esta es una prueba 2 con la rama dev pusheando en <main></main></h2>
+    <header>
+        <nav>
+            <a href="index.html" id="#inicio"><button>Inicio</button></a>
+            <a href="index.html#contacto"><button>Contácto</button></a>
+            <a href="https://www.google.com/" target="_blank"><button>Buscar en Google</button></a>
+            <a href="https://github.com/ChrisJRM92/ProyectoGrupo3" target="_blank"><button>Rep. Github</button></a>
+        </nav>
+    </header>
+    <section>
+        <h1>Proyecto Grupo #3</h1>
+        <p>Este es un pequeño proyecto para poner en práctica toda la informacion <br>
+            aprendida en el trascurso del curso, en este proyecto, los compañeros <br>
+            colaboramos en un mismo repositorio y cada uno tiene una tarea asignada
+        </p>
+        <p>Aqui van las previews de las entradas de los compañeros</p>
+        <hr>
+    </section>
+    <section id="contacto">
+        <fieldset>
+            <legend>Contáctanos</legend>
+            <form action="" method="get">
+                <label for="name">Escribe tu nombre:</label>
+                <input type="text" id="name" placeholder="Escribe tu nombre"><br>
+                <label for="email">Escribe tu email:</label>
+                <input type="email" id="email" placeholder="Escribe tu email"><br>
+                <label for="area">Déjanos tu mensaje</label><br>
+                <textarea name="" id="area" cols="30" rows="10" placeholder="Escribe tu mensaje aqui..."></textarea><br>
+                <button type="submit">Enviar</button>
+            </form>
+        </fieldset>
+    </section>
+    
+    <footer>
+        <br>
+        <br>
+        <hr>
+        Grupo #3 <b>Copyright ©</b> derechos reservados.
+        <br>
+        <br>
+        <a href="#inicio"><button>Ir a Inicio</button></a>
+    </footer>
+
 </body>
 </html>
