@@ -3,58 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alata&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap" rel="stylesheet">
+    <title>Grupo 3</title>
 </head>
 <body>
     <header id="inicio">
-        <nav>
-            <a href="index.html"><button>Inicio</button></a>
-            <a href="index.html#contacto"><button>Contácto</button></a>
-            <a href="https://www.google.com/" target="_blank"><button>Buscar en Google</button></a>
-            <a href="https://github.com/ChrisJRM92/ProyectoGrupo3" target="_blank"><button>Rep. Github</button></a>
+        <nav class="menu">
+            <a href="index.html" class="logo">G3</a>   
+            <ul>
+                <li><a class="menuit" href="index.html">Inicio</a></li>
+                <li><a class="menuit" href="index.html#contacto">Contácto</a></li>
+                <li><a class="menuit" href="https://www.google.com/" target="_blank">Buscar en Google</a></li>
+                <li><a class="menuit" href="https://github.com/ChrisJRM92/ProyectoGrupo3" target="_blank">Rep. Github</a></li>
+            </ul>
         </nav>
     </header>
-    <section>
-        <h1>Proyecto Grupo #3</h1>
-        <p>Este es un pequeño proyecto para poner en práctica toda la informacion <br>
-            aprendida en el trascurso del curso, en este proyecto, los compañeros <br>
-            colaboramos en un mismo repositorio y cada uno tiene una tarea asignada
-        </p>
-        <h2>Que es Visual Studio Code</h2>
-            <p><strong>Autor:</strong> Maryuri Carolina</p>
-            <img src="media/vscode.jpg" alt="imagen de vscode" width="400">
-            <p>Visual Studio Code es un editor de código fuente desarrollado por Microsoft para Windows, Linux, macOS y Web. <br>
-            Incluye soporte para la depuración, control integrado de Git, resaltado de sintaxis, finalización inteligente de <br>
-            código, fragmentos y refactorización de código...</p> 
-            <a href="vscode.html"><button>Leer más...</button></a>
-            <br>
-            <br>
-        <hr>
-    </section>
-    <section id="contacto">
-        <fieldset>
-            <legend>Contáctanos</legend>
-            <form action="" method="get">
+    <div class="sec">
+        <br>
+        <br>
+        <div class="info">
+            <div class="tar">
+                <h1>Proyecto Grupo #3</h1>
+                <p>Este es un pequeño proyecto para poner en práctica toda la informacion 
+                    aprendida en el trascurso del curso, en este proyecto, los compañeros 
+                    colaboramos en un mismo repositorio y cada uno tiene una tarea asignada
+                </p>
+            </div>
+        </div>
+        <br>
+        <div class="info2">
+            <div class="tar2">
+                <h2>Que es html</h2>
+                <p><strong>Autor:</strong> Manuel Hernández</p>
+                <img src="media/HTML5.jpg" alt="Imagen de HTML5" width="400">
+                <p>HTML (HyperText Markup Language) is the standard language for creating web pages. It consists of a series of elements or tags that structure the content of a web page...</p><br>
+                <a class="links2" href="whathtml.html">Leer más...</a>
+            </div>
+        </div>
+        
+        <br>
+        <div class="info2">
+            <div class="tar2">
+                <h2>Que es Visual Studio Code</h2>
+                <p><strong>Autor:</strong> Maryuri Carolina</p>
+                <img src="media/vscode.jpg" alt="imagen de vscode" width="400">
+                <p>Visual Studio Code es un editor de código fuente desarrollado por Microsoft para Windows, Linux, macOS y Web.
+                Incluye soporte para la depuración, control integrado de Git, resaltado de sintaxis, finalización inteligente de...
+                <br><br>
+                <a class="links2" href="vscode.html">Leer más...</a>
+                </div>
+        </div>
+        
+        
+    </div>
+    <br>
+    <div class="info2">
+        <div class="tar2">
+            <form action="" method="get" id="contacto">
+                <h2>Contáctanos</h2>
                 <label for="name">Escribe tu nombre:</label>
                 <input type="text" id="name" placeholder="Escribe tu nombre"><br>
                 <label for="email">Escribe tu email:</label>
                 <input type="email" id="email" placeholder="Escribe tu email"><br>
                 <label for="area">Déjanos tu mensaje</label><br>
-                <textarea name="" id="area" cols="30" rows="10" placeholder="Escribe tu mensaje aqui..."></textarea><br>
-                <button type="submit">Enviar</button>
+                <textarea name="" id="area" cols="65" rows="10" placeholder="Escribe tu mensaje aqui..."></textarea><br>
+                <button type="submit" class="btn-submit">Enviar</button>
             </form>
-        </fieldset>
-    </section>
+        </div>
+    </div>
     
     <footer>
+        <p>Grupo #3 <b>Copyright ©</b> derechos reservados.</p>
         <br>
-        <br>
-        <hr>
-        Grupo #3 <b>Copyright ©</b> derechos reservados.
-        <br>
-        <br>
-        <a href="#inicio"><button>Ir a Inicio</button></a>
+        <a class="links" href="#inicio">Ir a Inicio</a></li>
     </footer>
-
 </body>
 </html>
