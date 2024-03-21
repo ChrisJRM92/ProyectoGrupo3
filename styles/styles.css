@@ -6,7 +6,7 @@
 body{
     width: 100%;
     height: 100vh;
-    background-color: #f2f2f2f2;
+    background-color: #F7FCFE;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -21,10 +21,7 @@ body{
 }
 
 .logo{
-    font-size: 30px;
-    font-family: "Alata", sans-serif;
-    text-decoration: none;
-    color: black
+    width: 25vh;
 }
 
 ul li {
@@ -37,11 +34,7 @@ ul li {
     color: black;
     font-family: "Roboto Flex", sans-serif;
     transition: color 0.3s;
-    border-style: solid;
     padding: 5px;
-    border-width: 1px;
-    border-radius: 3px;
-
 }
 
 .sec{
@@ -49,15 +42,78 @@ ul li {
     flex-direction: column;
 }
 
-.info{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 150px;
-    font-family: Arial, Helvetica, sans-serif;
+.landing{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    height: 600px;
+}
+
+.div1 { grid-area: 1 / 1 / 2 / 2;
+    width: 100%;
+    margin-left: 150px;
+    margin-top: 100px;
+    width: 400px;
+}
+
+.prflanding{
     text-align: justify;
-    /* border-style: solid; */
+    font-size: 18px;
+    color: #545454;
+}
+
+.btnlanding{
+    padding: 10px;
+    border-style: none;
+    background-color: #6953ED;
+    color: #F7FCFE;
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+.pslanding{
+    margin-left: 20px;
+    color: #545454;
+}
+
+.div1_1{
+    margin-top: 20px;
+}
+
+.ttl{
+    font-size: 60px;
+    color: #545454;
+    margin-bottom: 15px;
+}
+
+.div2 { grid-area: 2 / 1 / 3 / 2; 
+    width: 100%;
+    margin-left: 150px;
+    margin-top: 30px;
+    width: 400px;   
+}
+
+.div21{
+    display: flex;
+    align-items: center;
+}
+
+.vb{
+    height: 30px;
+}
+
+.div3 { grid-area: 1 / 2 / 3 / 3;
+    width: 100%;
+
+}
+
+.fdld{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    overflow: visible;
 }
 
 .info2{
@@ -68,10 +124,6 @@ ul li {
     align-items: center;
 }
 
-.tar{
-    /* border-style: solid; */
-    width: 500px;
-}
 
 .tar2{
     /* border-style: solid; */
@@ -121,8 +173,9 @@ footer{
 }
 
 .menuit:hover{
-    background-color: #438DF1;
+    background-color: #6953ED;
     color: #f2f2f2f2;
+    border-radius: 15px;
 }
 
 .links2:hover{
