@@ -1,0 +1,104 @@
+
+
+
+body{ 
+    background-color: #EAF6F6;;
+    display: block;
+    margin: 0;
+    text-align: center;
+    font-family: "Merriweather", serif;
+    font-size: 130%
+} 
+
+
+.title{
+    
+    right: 120px;
+    top: 120px;
+
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding-top: 100px;
+    border-bottom-width: 100px;
+    border-top-width: 10px;
+}
+
+h2{
+    color: #66BFBF;
+    font-family: 'Sacramento', cursive;
+    font-size: 25px;
+    margin-top: 50px;
+    line-height: 2;
+
+}    
+.presentacion{
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding-top: 100px;
+    border-bottom-width: 100px;
+    border-top-width: 10px;
+}
+
+.names{ 
+    
+    
+    position: absolute;
+    right: 1200px;
+    top: 450px;
+    animation-name: cloube;
+      animation-duration: 9s;
+      animation-iteration-count: infinite;
+
+  }
+  @keyframes cloube{
+
+    0% {
+        transform: translateX(10px);
+    }
+    50% {
+        transform: translateX(800px);
+    }
+    100% {
+      transform: translateX(0);
+  
+    }
+  } 
+
+  .segunda_img{
+    width: 600px;
+    border-radius: 25px;
+  }
+  
+
+  .tablas{
+   width: 60%;
+    margin: auto;
+    text-align: center;
+  }
+
+  .enlaces{
+    margin-left: 100px;
+    margin-right: 100px;
+    border-left-width: 100px;
+    border-right-width: 100px;
+    list-style-type: none;
+  }
+  
+  .detalles{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+a{  
+
+    color:#a2a5f5;
+    &:visited{
+        color: darkkhaki;
+    }
+
+}
