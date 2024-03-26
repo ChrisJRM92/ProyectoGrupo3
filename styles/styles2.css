@@ -2,6 +2,22 @@
     background-color: rgb(11, 8, 47);
     background-image: url(/media/fotoprogram1.jpg);   
 }
+.nav {
+      .li {
+        display: inline-block;
+        background-color: aquamarine;
+        border-radius: 20px;
+        font-size: 15px;
+        padding: 10px;
+        list-style-type: none;
+        cursor: pointer;
+        &:hover{
+            color: rgb(216, 223, 22);
+        }
+    }
+    
+ }
+
 .divh1 {
     box-sizing: border-box;
     display: flex;
@@ -10,7 +26,6 @@
     justify-content: center;
     background-size: cover;
     background-position: center;  
-    filter: brightness(80%); /* Reducir la intensidad de la imagen al 50% */
     border-radius: 20px;
     width: 1000px;
     height: 100px;
@@ -25,34 +40,48 @@
     letter-spacing: 8px;
     word-spacing: 10px;
     font-style: italic;
-}
-.divh2 {
+    position: relative;
+    bottom: 130px;
     
-    padding: 15px;
-    width: 600px;
-    height: 350px;
+}
+
+.divh2 {
+    box-sizing: border-box;
+    overflow:scroll;
+    padding: 10px;
+    width: 300px;
+    height: 300px;
     border: 10px;
     border-radius: 20px;
     margin-top: 30px;
     margin-left: 10px;
-    background-image: linear-gradient(135deg, #7a8187, #133771); 
-    border: 5px solid rgb(36, 7, 74);
-    
-}
+    background-image: linear-gradient(135deg, #4f7ba2, #042c6e); 
+    position: relative;
+    bottom: 100px;
+    left: 45px;
+    ::-webkit-scrollbar {
+        width: 40px;
+    }
+    ::-webkit-scrollbar-track {
+        background-color: blue;
+    }
+  
 .hh2 {
     
     color: white;
     font-family: 'Times New Roman', Times, serif;
-    text-decoration: underline;
-    font-size: 30px;
+    font-size: 25px;
+    text-align: center;
+    background-color: blue;
+    border-radius: 20px;
 }
 .parrafo1 {
     padding: 1px;
-    text-align: justify;
+    text-align: center;
     font-size: 20px;
     color: white;
     letter-spacing: 5px;
     font-family: 'Times New Roman'times;
-    line-height: 20px;
+    line-height: 30px;
 
 }
