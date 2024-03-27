@@ -11,9 +11,28 @@ header {
     padding: 20px;
     text-align: center;
 }
+header button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    color: #fff;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+}
+header button img {
+    width: 30px;
+    margin-right: 5px;
+}
+header button:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
 
 header h1 {
     margin: 0;
+    padding: 10px 0;
+    font-size: 24px;
 }
 
 section {
