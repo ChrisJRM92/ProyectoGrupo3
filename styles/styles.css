@@ -75,7 +75,7 @@ ul li {
 .btnlanding{
     padding: 10px;
     border-style: none;
-    background-color: #0057D0;
+    background-color: #6953ED;
     color: #F7FCFE;
     border-radius: 8px;
     font-size: 18px;
@@ -234,7 +234,7 @@ ul li {
 .btn-submit{
     width: 30%;
     border-radius: 5px;
-    background-color: #0057D0;
+    background-color: #6953ED;
     color: aliceblue;
     border-style: none;
     height: 25px;
@@ -260,7 +260,7 @@ footer{
 
 /* Sección Pseudo clases */
 .menuit:hover{
-    background-color: #0057D0;
+    background-color: #6953ED;
     color: #f2f2f2f2;
     border-radius: 15px;
 }
