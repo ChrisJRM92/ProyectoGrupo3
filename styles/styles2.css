@@ -1,19 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
 .body {
+    
     background-color: rgb(11, 8, 47);
-    background-image: url(/media/fotoprogram1.jpg);   
+    background-image: url(/media/fotoprogram1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;  
+    .img1{
+        width: 100px;
+        height: 80px;
+        border-radius: 100px;    
+        border: solid black;
+        position: absolute;
+        top: 80px;
+        left: 120px;
+    }
+    
 }
 .nav {
+    height: 50px;  
+    background-color: beige;
+    box-shadow: 0px 0px 10px #000000;
+    &:hover{
+        color: rgb(162, 84, 5);
+    }
+    
       .li {
-        display: inline-block;
-        background-color: aquamarine;
-        border-radius: 20px;
-        font-size: 15px;
-        padding: 10px;
-        list-style-type: none;
-        cursor: pointer;
-        &:hover{
-            color: rgb(216, 223, 22);
+        &:hover {
+            color: rgb(238, 243, 243);
         }
+        display: inline-block;
+        position: relative;
+        bottom: 53px;
+        left: 185px;
+        color: black;
+        font-family: "Roboto Flex", sans-serif;
+        padding: 10px;
+
+        cursor: pointer; 
+    }
+    .logo{
+        width: 25vh;
     }
     
  }
@@ -29,7 +62,7 @@
     border-radius: 20px;
     width: 1000px;
     height: 100px;
-    border: 10px solid black;
+    border: 10px solid rgb(2, 4, 50);
     margin: auto;
     margin-top: 100px;
     color: black;
@@ -41,7 +74,7 @@
     word-spacing: 10px;
     font-style: italic;
     position: relative;
-    bottom: 130px;
+    bottom: 95px;
     
 }
 
@@ -52,7 +85,7 @@
     width: 300px;
     height: 300px;
     border: 10px;
-    border-radius: 20px;
+    border-radius: 10px;
     margin-top: 30px;
     margin-left: 10px;
     background-image: linear-gradient(135deg, #4f7ba2, #042c6e); 
