@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: rgba(129, 13, 120, 0.726);
     color: #fff;
     padding: 20px;
     text-align: center;
@@ -29,10 +29,19 @@ h3 {
 }
 
 pre {
-    background-color: #f4f4f4;
-    border: 1px solid #ddd;
-    padding: 10px;
-    overflow-x: auto;
+    background-color: #1e1e1e;
+    color: #d4d4d4; 
+    padding: 15px; 
+    border-radius: 5px; 
+    overflow-x: auto; 
+    font-family: 'Courier New', Courier, monospace; 
+    font-size: 14px; 
+    line-height: 1.5; 
+}
+pre {
+    color: #d4d4d4; 
+    font-family: 'Courier New', Courier, monospace; 
+    font-size: 14px; 
 }
 
 code {
@@ -71,7 +80,7 @@ ul, ol {
 }
 
 footer {
-    background-color: #333;
+    background-color: rgba(129, 13, 120, 0.726);
     color: #fff;
     text-align: center;
     padding: 20px;
@@ -82,14 +91,31 @@ footer a {
     text-decoration: none;
 }
 
-footer button {
+a.button {
+    display: inline-block;
     padding: 10px 20px;
-    background-color: #c7254e;
-    border: none;
+    background-color: #333;
     color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
     cursor: pointer;
 }
 
-footer button:hover {
+a.button:hover {
+    background-color: #a4183a;
+}
+a.github-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+a.github-button:hover {
     background-color: #a4183a;
 }
