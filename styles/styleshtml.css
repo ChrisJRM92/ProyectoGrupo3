@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgba(129, 13, 120, 0.726);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+header button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    color: #fff;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+}
+header button img {
+    width: 30px;
+    margin-right: 5px;
+}
+header button:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+header h1 {
+    margin: 0;
+    padding: 10px 0;
+    font-size: 24px;
+}
+
+section {
+    padding: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+h3 {
+    color: #555;
+}
+
+pre {
+    background-color: #1e1e1e;
+    color: #d4d4d4; 
+    padding: 15px; 
+    border-radius: 5px; 
+    overflow-x: auto; 
+    font-family: 'Courier New', Courier, monospace; 
+    font-size: 14px; 
+    line-height: 1.5; 
+}
+pre {
+    color: #d4d4d4; 
+    font-family: 'Courier New', Courier, monospace; 
+    font-size: 14px; 
+}
+
+code {
+    color: #c7254e;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+caption {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+ul, ol {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: rgba(129, 13, 120, 0.726);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+a.button:hover {
+    background-color: #a4183a;
+}
+a.github-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+a.github-button:hover {
+    background-color: #a4183a;
+}
