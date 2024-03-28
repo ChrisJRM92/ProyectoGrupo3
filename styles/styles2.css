@@ -10,15 +10,17 @@ html{
    background: white;
 }
 .nav {
+    position: relative;
+    background-attachment: fixed;
     height: 90px;  
     background-color: beige;
     box-shadow: 0px 0px 10px #000000;
+    position: relative;
     .logo{
         width: 30vh;
-    }
-   }
+     }
+   
      .li {  
-          
         display: inline-block;
         position: relative;
         bottom: 30px;
@@ -29,36 +31,10 @@ html{
         cursor: pointer; 
         &:hover {
             color: rgb(162, 84, 5);
+        }    
     }
-  
-    
 }
 
-.divh1 {
-    box-sizing: border-box;
-    display: flex;
-    align-items: center; /*alinea vertical*/
-    justify-content: center; /* Alineación horizontal */
-    justify-content: center;
-    background-size: cover;
-    background-position: center;  
-    border-radius: 20px;
-    width: 1000px;
-    height: 100px;
-    border: 10px solid rgb(2, 4, 50);
-    margin: auto;
-    margin-top: 100px;
-    color: black;
-    text-align: center;
-    text-shadow: 2px 2px white;
-    font-size: 20px;
-    font-weight: 400;
-    letter-spacing: 8px;
-    word-spacing: 10px;
-    font-style: italic;
-    position: relative;
-    bottom: 95px;    
-}
 .box_h1 {
     box-sizing: border-box;
     display: block;
@@ -68,17 +44,94 @@ html{
     box-shadow: 0px 0px 10px #000000;
     position: relative;
     .h1 {
-        font-size: 3rem;
+        background-image: url(/media/giphy.gif);
+        background-clip: text;
+        color: transparent;
+        font-size: 80px;
         font-family: Arial, Helvetica, sans-serif;
-        text-shadow: 3px 3px 2px white;
         position: relative;
-        top: 60px;
+        top: 18px;
     }
     .img1 {
        width: 300px;
        height: 250px;
        position: absolute;
        top: 175px;
-       left: 1200px;
+       left: 1150px;
      }           
+     .img2 {
+        width: 130px;
+        height: 90px;
+        border-radius: 80px;
+        position: absolute;
+        top: 18px;
+        left: 800px;
+      }           
  }
+ .section1 {
+    box-sizing: border-box;
+    display: inline-block;
+    position: absolute;
+    width: 400px;
+    height: 700px;
+    border: 2px solid black;
+    padding: 60px;
+    background-color: #F4D03F;
+    line-height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+   .li2{
+    cursor: pointer;
+    &:visited {
+        color: black;
+    }
+    &:active {
+        color: black;
+    }
+    &:hover {
+        color: rgb(244, 239, 234);
+   }
+ }
+}
+.section2 {
+    box-sizing: border-box;
+    display: inline-block;
+    background-color:white;
+    border-bottom: solid black;
+    width: 700px;
+    height: 690px;
+    position: relative;
+    top: 10px;
+    left: 450px;
+    overflow: auto;
+    ::-webkit-scrollbar-track {
+        width: 10px;
+    }
+}
+.div_parrafos {
+    box-sizing: border-box;
+    position: relative;
+    top: 10px;
+}
+h2 {
+    font-size: 25px;
+    padding: 10px;
+}
+p {
+    font-size: 18px;
+}
+.footer {
+    box-sizing: border-box;
+    position: relative;
+    top: 10px;
+    width: auto;
+    height: 200px;
+    background-image: url(/media/fabrica.png);
+    background-repeat: no-repeat;
+    box-shadow: 0px 0px 10px #000000;
+    background-size: cover;
+    object-fit: cover;
+   
+    
+      
+}
