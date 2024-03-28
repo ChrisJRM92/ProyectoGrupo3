@@ -18,8 +18,8 @@
             <ul>
                 <li><a class="menuit" href="index.html">Inicio</a></li>
                 <li><a class="menuit" href="#noticias">Noticias</a></li>
-                <li><a class="menuit" href="index.html">Testimonios</a></li>
-                <li><a class="menuit" href="index.html#contacto">Contactanos</a></li>
+                <li><a class="menuit" href="#testimonios">Testimonios</a></li>
+                <li><a class="menuit" href="#contacto">Contáctanos</a></li>
                 <li><a class="menuit" href="https://github.com/ChrisJRM92/ProyectoGrupo3" target="_blank">Rep. Github</a></li>
             </ul>
         </nav>
@@ -32,7 +32,7 @@
                 <h1 class="ttl">G3D Software</h1>
                 <p class="prflanding">G3D Software ofrece soluciones  innovadoras a medida para satisfacer las  necesidades de tu empresa, contáctanos e impulsa tu negocio hacia el exito.</p>
                 <div class="div1_1">
-                    <button class="btnlanding">Contactar</button>
+                    <a href="#contacto"><button class="btnlanding">Contactar</button></a>
                     <a class="pslanding" href="">Nuestros proyectos</a>
                 </div>
             </div>
@@ -118,7 +118,9 @@
             </div>
         </div>
     </section>
-    
+    <div>
+        <p id="testimonios"></p>
+    </div>
     <!-- Sección testimonios -->
     <div class="contenedor">
         <div class="imagen"></div>
@@ -140,7 +142,7 @@
             </div>
         </div>
     </div>
-
+    
     <div style="height: 200px; display: flex; justify-content: space-between; margin: 50px 10% 0px 10%;">
         <div>
             <p style="width: auto; font-size: 20px; color: #545454;"> Trabajamos con la mejor técnologia para garantizar productividad y eficiencia.</p>
@@ -152,6 +154,9 @@
             <img src="media/Visual-Studio.png" width="50px" height="50px" style="padding: 0px 10px 0px 10px;" alt="">
         </div>
     </div>
+    <div>
+        <p id="contacto"></p>
+    </div>  
 
    <!-- Contacto -->
    <section class="contacto">
@@ -163,7 +168,7 @@
                 <div><img src="media/productividad.png" alt="" width="80%"></div>
                 <div style="display: flex; flex-direction: column; justify-content: center;">
                     <p style="color: #545454;">Escribenos a:</p>
-                    <p style="text-decoration: underline; color: #545454;">info@gedsoftware.com</p>
+                    <p style="text-decoration: underline; color: #545454;">info@g3dsoftware.com</p>
                 </div>
             </div>
         </div>
@@ -172,7 +177,7 @@
                 <input type="text" id="name" placeholder="Escribe tu nombre">
                 <input type="email" id="email" placeholder="Escribe tu email">
                 <input type="text" id="name" placeholder="Tipo de industria">
-                <textarea name="" id="area" cols="65" rows="10" placeholder="Escribe tu mensaje aqui..."></textarea><br>
+                <textarea style="font-family: Arial, Helvetica, sans-serif;" name="" id="area" cols="65" rows="10" placeholder="Escribe tu mensaje aqui..."></textarea><br>
                 <button type="submit" class="btn-submit" >Enviar</button>
             </form>
         </div>
@@ -180,9 +185,38 @@
     
     <!-- Píe de página  -->
     <footer>
-        <p>Grupo #3 <b>Copyright ©</b> derechos reservados.</p>
-        <br>
-        <a class="links" href="#inicio">Ir a Inicio</a></li>
+        <section style="margin: 0px 15% 0px 15%; display: flex; justify-content: space-between;">
+            <div style="width: 30%; height: 150px; padding: 10px 0px 0px 0px;">
+                <div style="display: flex; justify-content: center;"><img src="media/blnc.png" alt="" width="60%" height="auto" style="margin-bottom: 10px;"></div>
+                <div style="display: flex; justify-content: center;">
+                    <img class="imgfooter" src="media/facebookbsf.png" alt="">
+                    <img class="imgfooter" src="media/linkedinbsf.png" alt="">
+                    <img class="imgfooter" src="media/githubbsf.png" alt="">
+                    <img class="imgfooter" src="media/Whatsappbsf.png" alt="">
+                </div>
+                <div>
+                    <p style="font-family: Arial, Helvetica, sans-serif; color: aliceblue; font-size: 10px; margin-top: 10px; text-align: center;">Grupo #3 <b>Copyright ©</b> derechos reservados.</p>
+                </div>
+            </div>
+            <div style="display: flex; width: 50%; justify-content: flex-end;">
+                <div style=" width: 40%; height: 150px; display: flex; flex-direction: column; padding: 10px 0px 0px 0px;">
+                    <a href="">Trabaja con nosotros</a>
+                    <a href="">Financiamiento</a>
+                    <a href="">Agendar cita</a>
+                    <a href="">Proyectos</a>
+                    <a href="">Portal licencias</a>
+                    <a href="">Reportar error</a>
+                </div>
+                <div style=" width: 40%; height: 150px; display: flex; flex-direction: column; padding: 10px 0px 0px 0px;">
+                    <a href="">Colaboraciones</a>
+                    <a href="">Educación</a>
+                    <a href="">Entrevistas</a>
+                    <a href="">Quienes somos</a>
+                    <a href=""> Terminos y <br> condiciones</a>
+                    <a href="">Privacidad</a>
+                </div>
+            </div>
+        </section>
     </footer>
 </body>
 </html>
